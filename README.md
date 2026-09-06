@@ -1,8 +1,16 @@
-# Global Tech & AI Startups Analysis
+# Global Tech and AI Startups Analysis
 This project analyzes synthetic data from global technology and AI startups. The main objective is to determine if higher levels of AI adoption are associated with better financial and operational outcomes, such as revenue, company valuation, funding, layoffs, headcount, runway, and acquisition status.
 
 ## Table of Contents
+- [Project Objectives](#project-objectives)
 - [Dataset Information](#dataset-information)
+- [Tools](#tools)
+  
+## Project Objectives
+- Analyze the relationship between AI adoption and financial outcomes.
+- Examine differences in operational metrics.
+- Determine whether AI adoption is associated with better startup performance across the selected financial and operational metrics.
+- Use statistical tests to determine whether the observed relationships are statistically significant.
 
 ## Dataset Information
 The dataset is publicly available on Kaggle under the CC0: Public Domain License.
@@ -30,3 +38,7 @@ Dataset source: https://www.kaggle.com/datasets/saitejabandaruin/automated-pipel
 | Investor_Tier | Classification of the startup's investor profile or tier. |
 | AI_Adoption_Level | Level of AI adoption within the startup. |
 | Acquisition_Status | Current ownership status of the startup. |
+
+## Tools
+- **Python**: Programming language used to analyze the data. The libraries of Python used are Pandas, NumPy, Matplotlib, Seaborn and Statsmodels.
+- **Jupyter Notebook:** Used to document and run the analysis.
