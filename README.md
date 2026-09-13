@@ -5,6 +5,8 @@ This project analyzes synthetic data from global technology and AI startups. The
 - [Project Objectives](#project-objectives)
 - [Dataset Information](#dataset-information)
 - [Tools](#tools)
+- [Data Analysis Process](#data-analysis-process)
+
   
 ## Project Objectives
 - Analyze the relationship between AI adoption and financial outcomes.
@@ -42,3 +44,8 @@ Dataset source: https://www.kaggle.com/datasets/saitejabandaruin/automated-pipel
 ## Tools
 - **Python**: Programming language used to analyze the data. The libraries of Python used are Pandas, NumPy, Matplotlib, Seaborn and Statsmodels.
 - **Jupyter Notebook:** Used to document and run the analysis.
+
+## Data Analysis Process
+
+The analysis was developed in Jupyter Notebooks through Anaconda. The files can be found in the folder `notebooks`. 
+- `01_exploratory_descriptive_analysis.ipynb`: Focuses on inspecting and cleaning the dataset, identifying missing and duplicate values. It identifies variable distributions and performs descriptive statistics by comparing selected financial and operational performance variables across AI adoption levels. After all the analysis is done, it recognizes an initial relationship between AI adoption level and the performance variables.
