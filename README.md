@@ -8,6 +8,7 @@ This project analyzes synthetic data from global technology and AI startups. The
 - [Overall Methodology](#overall-methodology)
 - [Data Analysis Process](#data-analysis-process)
 - [Limitations](#limitations)
+- [Conclusion](#conclusion)
   
 ## Project Objectives
 - Analyze the relationship between AI adoption and financial outcomes.
@@ -62,3 +63,8 @@ The analysis was developed in Jupyter Notebooks through Anaconda. The files can 
 
 ## Limitations
 Missing values in the column *AI_Adoption_Level* were assumed to represent “No AI Adoption”, as there were 2592 missing values, a number of observations that was worth having in the analysis. If the missing values originally represented unknown or unavailable information, the findings of the analysis may therefore be different.
+
+## Conclusion
+The descriptive analysis showed some differences in the means and medians of the performance variables across AI adoption levels, but the one-way ANOVA tests did not provide sufficient evidence to conclude that the AI adoption level of global tech and AI startups is associated with their financial and operational performance.
+
+In other words, there is not enough statistical evidence to suggest that the AI adoption level is associated with startup performance.
