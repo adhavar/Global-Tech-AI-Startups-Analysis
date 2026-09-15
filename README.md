@@ -1,12 +1,13 @@
 # Global Tech and AI Startups Analysis
-This project analyzes synthetic data from global technology and AI startups. The main objective is to determine if higher levels of AI adoption are associated with better financial and operational outcomes, such as revenue, company valuation, funding, layoffs, headcount, runway, and acquisition status.
+This project analyzes synthetic data from global technology and AI startups. The main objective is to determine if higher levels of AI adoption are associated with better financial and operational outcomes.
 
 ## Table of Contents
 - [Project Objectives](#project-objectives)
 - [Dataset Information](#dataset-information)
 - [Tools](#tools)
+- [Overall Methodology](#overall-methodology)
 - [Data Analysis Process](#data-analysis-process)
-
+- [Limitations](#limitations)
   
 ## Project Objectives
 - Analyze the relationship between AI adoption and financial outcomes.
@@ -45,8 +46,19 @@ Dataset source: https://www.kaggle.com/datasets/saitejabandaruin/automated-pipel
 - **Python**: Programming language used to analyze the data. The libraries of Python used are Pandas, NumPy, Matplotlib, Seaborn and Statsmodels.
 - **Jupyter Notebook:** Used to document and run the analysis.
 
-## Data Analysis Process
+## Overall Methodology
+- Data inspection and cleaning
+- Missing and duplicate value analysis
+- Descriptive Analysis
+- Distribution analysis
+- Comparison of performance variables across AI adoption levels
+- One-Way ANOVA
+- Interpretation of p-values using a significance level of α = 0.05
 
+## Data Analysis Process
 The analysis was developed in Jupyter Notebooks through Anaconda. The files can be found in the folder `notebooks`. 
 - `01_exploratory_descriptive_analysis.ipynb`: Focuses on inspecting and cleaning the dataset, identifying missing and duplicate values. It identifies variable distributions and performs descriptive statistics by comparing selected financial and operational performance variables across AI adoption levels. After all the analysis is done, it recognizes an initial relationship between AI adoption level and the performance variables.
 - `02_statistical_hypothesis_testing.ipynb`: Defines the research question and statistical hypotheses, explains why one-way ANOVA is used, and tests the selected performance variables across the AI adoption levels. It evaluates the statistical significance of the results using a significance level of α = 0.05 and interprets the findings.
+
+## Limitations
+Missing values in the column *AI_Adoption_Level* were assumed to represent “No AI Adoption”, as there were 2592 missing values, a number of observations that was worth having in the analysis. If the missing values originally represented unknown or unavailable information, the findings of the analysis may therefore be different.
