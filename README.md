@@ -49,3 +49,4 @@ Dataset source: https://www.kaggle.com/datasets/saitejabandaruin/automated-pipel
 
 The analysis was developed in Jupyter Notebooks through Anaconda. The files can be found in the folder `notebooks`. 
 - `01_exploratory_descriptive_analysis.ipynb`: Focuses on inspecting and cleaning the dataset, identifying missing and duplicate values. It identifies variable distributions and performs descriptive statistics by comparing selected financial and operational performance variables across AI adoption levels. After all the analysis is done, it recognizes an initial relationship between AI adoption level and the performance variables.
+- `02_statistical_hypothesis_testing.ipynb`: Defines the research question and statistical hypotheses, explains why one-way ANOVA is used, and tests the selected performance variables across the AI adoption levels. It evaluates the statistical significance of the results using a significance level of α = 0.05 and interprets the findings.
